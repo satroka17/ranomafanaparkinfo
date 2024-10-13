@@ -55,7 +55,7 @@
                 </div>
              </div>
             </div>
-            <div class="row align-items-center" id="kayaking">
+            <div class="row align-items-center" id="kaiaking">
                 <div class="col-md-5">
                    <div class="titlepage">
                      <h2>Kayaking</h2>
