@@ -556,7 +556,7 @@
                               <ul>
                                  <li>18 person conference room for hire 70.000 MGA per day </li>
                                  <li>Coffee machine </li>
-                                 <li>Very Catholic </li>
+                                 <li>Part of the Catholic diocese </li>
                               </ul>
                            </li>
                         </ul>
@@ -1101,7 +1101,7 @@
             <div class="row">
                <div class="col-md-12">
                   <div class="titlepage">
-                     <p  class="margin_0">12. Karibou Hotel</p>
+                     <p  class="margin_0">12. Karibotel</p>
                   </div>
                </div>
             </div>
