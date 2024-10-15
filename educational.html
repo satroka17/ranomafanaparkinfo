@@ -152,6 +152,28 @@
            </div>
         </div>
      </footer>
+     <button onclick="scrollToTop()" id="backToTopBtn" title="Go to top">Back to Top</button>
+     <script>
+      // Afficher le bouton quand l'utilisateur fait défiler vers le bas
+      window.onscroll = function() {
+          showButton();
+      };
+
+      function showButton() {
+          const btn = document.getElementById("backToTopBtn");
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+              btn.style.display = "block";
+          } else {
+              btn.style.display = "none";
+          }
+      }
+
+      // Faire défiler vers le haut
+      function scrollToTop() {
+          document.body.scrollTop = 0; // Pour Safari
+          document.documentElement.scrollTop = 0; // Pour Chrome, Firefox, IE, et Opera
+      }
+  </script>
      <script src="js/jquery.min.js"></script>
      <script src="js/bootstrap.bundle.min.js"></script>
      <script src="js/jquery-3.0.0.min.js"></script>
