@@ -1019,4 +1019,7 @@ line-height: 35px;
  #backToTopBtn:hover {
      background-color: #333; /* Couleur au survol */
  }
- 
+ .no-margin {
+     margin-top: 0 !important; /* Supprime le margin-top */
+  }
+   
