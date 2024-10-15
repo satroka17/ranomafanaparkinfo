@@ -1022,4 +1022,10 @@ line-height: 35px;
  .no-margin {
      margin-top: 0 !important; /* Supprime le margin-top */
   }
+.img-carousel {
+     height: 300px; /* Hauteur fixe pour uniformiser toutes les images */
+     width: 100%; /* Assure que l'image s'ajuste à la largeur du conteneur */
+     object-fit: cover; /* Recadre l'image pour qu'elle remplisse le conteneur sans déformation */
+     object-position: center; /* Centre l'image dans son conteneur */
+   }
    
