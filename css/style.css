@@ -904,7 +904,6 @@ ul.social_icon li a:hover {
      font-size: 18px;
      line-height: 22px;
      text-align: center;
-     border-top: #a3aec6 solid 1px;
      padding-top: 25px;
      font-weight: normal;
 }
@@ -1037,3 +1036,16 @@ line-height: 35px;
      object-position: center; /* Centre l'image dans son conteneur */
    }
    
+   .nav-logo-left, .nav-logo-right {
+     max-height: 50px; /* Ajustez selon vos besoins */
+     margin: 0 10px;    /* Espacement autour des logos */
+  }
+  
+  .nav-logo-left {
+     float: left;
+  }
+  
+  .nav-logo-right {
+     float: right;
+  }
+  
