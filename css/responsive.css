@@ -88,7 +88,7 @@
         float: right;
         padding-top: 9px;
     }
-    .navigation.navbar-dark .navbar-toggler-icon {
+    .navigation.navbar-dark . {
         background: url(../images/menu_icon.png);
         background-repeat: no-repeat;
     }
@@ -160,7 +160,7 @@
     .testimonial_box {
         padding: 0px 19px 40px 20px;
     }
-    .navigation.navbar-dark .navbar-toggler-icon {
+    .navigation.navbar-dark . {
         background: url(../images/menu_icon.png);
         background-repeat: no-repeat;
     }
