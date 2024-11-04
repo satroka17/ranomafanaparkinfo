@@ -2,7 +2,7 @@
 
       <!-- end header inner -->
       <!-- end header -->
-     <div class="back_re">
+      <div class="back_re">
          <div class="container">
             <div class="row">
                <div class="col-md-12">

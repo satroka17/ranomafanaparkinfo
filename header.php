@@ -15,6 +15,26 @@
       <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+      <!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <title>RANOMAFANA National Park</title>
+<!-- bootstrap css -->
+<link rel="stylesheet" href="css/bootstrap.min.css?v=1.1">
+<link rel="stylesheet" href="css/style.css?v=1.1">
+<link rel="stylesheet" href="css/responsive.css?v=1.1">
+<link rel="icon" href="images/fevicon.png" type="image/gif" />
+<link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css?v=1.1">
+
+<!-- External CSS resources -->
+<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
    </head>
    <body class="main-layout">
@@ -54,13 +74,13 @@
         <a class="nav-link" href="parkinformation.php">Park</a>
     </li>
     <li class="nav-item <?php echo basename($_SERVER['PHP_SELF']) == 'otheractivities.php' ? 'active' : ''; ?>">
-        <a class="nav-link" href="otheractivities.php">Other_Activities</a>
+        <a class="nav-link" href="otheractivities.php">Other Activities</a>
     </li>
     <li class="nav-item <?php echo basename($_SERVER['PHP_SELF']) == 'howtoget.php' ? 'active' : ''; ?>">
-        <a class="nav-link" href="howtoget.php">How_to_get_to_town</a>
+        <a class="nav-link" href="howtoget.php">How to get to Ranomafana</a>
     </li>
     <li class="nav-item <?php echo basename($_SERVER['PHP_SELF']) == 'educational.php' ? 'active' : ''; ?>">
-        <a class="nav-link" href="educational.php">Education</a>
+        <a class="nav-link" href="educational.php">Conservation</a>
     </li>
     <li class="nav-item <?php echo basename($_SERVER['PHP_SELF']) == 'contact.php' ? 'active' : ''; ?>">
         <a class="nav-link" href="contact.php">Contact</a>
