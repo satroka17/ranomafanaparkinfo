@@ -23,16 +23,13 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     try {
         // Configuration SMTP
         $mail->isSMTP();
-        $mail->Host = 'mail.ranomafanainfo.com';
-        $mail->SMTPAuth = true;
-        $mail->Username = 'noreply@ranomafanainfo.com';
-        $mail->Password = 'Ranomafana2024@';
+
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port = 587;
 
         // Définir l’expéditeur
         $mail->setFrom('noreply@ranomafanainfo.com', 'Ranomafana Info');
-        $mail->addAddress('noreply@ranomafanainfo.com'); // Destinataire
+        $mail->addAddress('contact@ranomafanainfo.com'); // Destinataire
 
         // Contenu de l’e-mail
         $mail->isHTML(true);
